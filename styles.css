@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: #dedcdc;
+    color: #0e2436;
+    margin: 16px;
+    max-width: 900px;
+    width: 100%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(auto, 18px));
+    grid-template-rows: repeat(8, minmax(auto, 18px));
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
